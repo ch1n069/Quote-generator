@@ -1,1 +1,26 @@
-* {}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://images.pexels.com/photos/2727904/pexels-photo-2727904.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card {
+    background-color: #D8CFCC;
+    color: #6C757D;
+    font-family: 'Nunito', sans-serif;
+}
+
+.card p {
+    font-weight: bold;
+}
+
+.btn {
+    background-color: green
+}
